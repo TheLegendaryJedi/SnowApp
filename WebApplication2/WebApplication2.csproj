@@ -167,52 +167,6 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
-    <Content Include="App_Resources\client-scripts\app\left-menu.js" />
-    <Content Include="App_Resources\client-scripts\framework\jquery-1.5.1.min.js" />
-    <Content Include="App_Resources\client-scripts\framework\jquery.min.js" />
-    <Content Include="App_Resources\client-scripts\framework\jquery.ui.core.js" />
-    <Content Include="App_Resources\client-scripts\framework\jquery.ui.datepicker.js" />
-    <Content Include="App_Resources\fusioncharts\fusioncharts.charts.js" />
-    <Content Include="App_Resources\fusioncharts\fusioncharts.gantt.js" />
-    <Content Include="App_Resources\fusioncharts\fusioncharts.js" />
-    <Content Include="App_Resources\fusioncharts\fusioncharts.maps.js" />
-    <Content Include="App_Resources\fusioncharts\fusioncharts.powercharts.js" />
-    <Content Include="App_Resources\fusioncharts\fusioncharts.widgets.js" />
-    <Content Include="App_Resources\fusioncharts\maps\fusioncharts.usa.js" />
-    <Content Include="App_Resources\fusioncharts\maps\fusioncharts.world.js" />
-    <Content Include="App_Resources\fusioncharts\maps\readme.txt" />
-    <Content Include="App_Resources\fusioncharts\themes\fusioncharts.theme.carbon.js" />
-    <Content Include="App_Resources\fusioncharts\themes\fusioncharts.theme.fint.js" />
-    <Content Include="App_Resources\fusioncharts\themes\fusioncharts.theme.ocean.js" />
-    <Content Include="App_Resources\fusioncharts\themes\fusioncharts.theme.zune.js" />
-    <Content Include="App_Resources\images\0145-task_edit_16.png" />
-    <Content Include="App_Resources\images\0145-task_edit_24.png" />
-    <Content Include="App_Resources\images\0145-task_edit_48.png" />
-    <Content Include="App_Resources\images\accept16.png" />
-    <Content Include="App_Resources\images\dcsi.png" />
-    <Content Include="App_Resources\images\delete.png" />
-    <Content Include="App_Resources\images\favicon.ico" />
-    <Content Include="App_Resources\images\favicon_old.ico" />
-    <Content Include="App_Resources\images\Folder_Closed_Green_small.png" />
-    <Content Include="App_Resources\images\Folder_Closed_Red_small.png" />
-    <Content Include="App_Resources\images\ico-cal.png" />
-    <Content Include="App_Resources\images\loader-life.gif" />
-    <Content Include="App_Resources\images\lock24.png" />
-    <Content Include="App_Resources\images\Login.png" />
-    <Content Include="App_Resources\images\noimage.gif" />
-    <Content Include="App_Resources\images\ocads.png" />
-    <Content Include="App_Resources\images\Reciclagem_t.ico" />
-    <Content Include="App_Resources\images\refresh16.png" />
-    <Content Include="App_Resources\images\SGAE.png" />
-    <Content Include="App_Resources\images\SIRCAPE_Default_50.png" />
-    <Content Include="App_Resources\images\SIRCAPE_Default_60.png" />
-    <Content Include="App_Resources\images\teste.png" />
-    <Content Include="App_Resources\images\wi0062-24.png" />
-    <Content Include="App_Resources\messages\Acesso-Negado.aspx" />
-    <Content Include="App_Resources\messages\error-page.aspx" />
-    <Content Include="App_Resources\messages\Ja-Autenticado.aspx" />
-    <Content Include="App_Resources\messages\Timeout.aspx" />
-    <Content Include="App_Resources\system\log\log.txt" />
     <Content Include="bin\Antlr3.Runtime.dll" />
     <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
     <Content Include="bin\AspNet.ScriptManager.jQuery.dll" />
@@ -373,8 +327,6 @@
     <Content Include="images\404.xcf" />
     <Content Include="obj\Debug\build.force" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="App_Resources\default.master" />
-    <Content Include="App_Resources\login.master" />
     <None Include="Properties\PublishProfiles\kenny.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="portfolio.aspx" />
@@ -477,52 +429,6 @@
     <Compile Include="App_Logic\Helpers\Infrastructure Helpers\Filer.cs" />
     <Compile Include="App_Logic\Helpers\Infrastructure Helpers\SiteLogin.cs" />
     <Compile Include="App_Logic\Helpers\Infrastructure Helpers\UITestDataHelper.cs" />
-    <Compile Include="App_Resources\Acesso_DB\DB.cs" />
-    <Compile Include="App_Resources\charts_code\FusionCharts.cs" />
-    <Compile Include="App_Resources\charts_code\Util.cs" />
-    <Compile Include="App_Resources\default.master.cs">
-      <DependentUpon>default.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="App_Resources\default.master.designer.cs">
-      <DependentUpon>default.master</DependentUpon>
-    </Compile>
-    <Compile Include="App_Resources\Funcoes-gerais\Funcoes.cs" />
-    <Compile Include="App_Resources\login.master.cs">
-      <DependentUpon>login.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="App_Resources\login.master.designer.cs">
-      <DependentUpon>login.master</DependentUpon>
-    </Compile>
-    <Compile Include="App_Resources\messages\Acesso-Negado.aspx.cs">
-      <DependentUpon>Acesso-Negado.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="App_Resources\messages\Acesso-Negado.aspx.designer.cs">
-      <DependentUpon>Acesso-Negado.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="App_Resources\messages\error-page.aspx.cs">
-      <DependentUpon>error-page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="App_Resources\messages\error-page.aspx.designer.cs">
-      <DependentUpon>error-page.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="App_Resources\messages\Ja-Autenticado.aspx.cs">
-      <DependentUpon>Ja-Autenticado.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="App_Resources\messages\Ja-Autenticado.aspx.designer.cs">
-      <DependentUpon>Ja-Autenticado.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="App_Resources\messages\Timeout.aspx.cs">
-      <DependentUpon>Timeout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="App_Resources\messages\Timeout.aspx.designer.cs">
-      <DependentUpon>Timeout.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
