@@ -317,8 +317,6 @@
     <Content Include="js\main.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="js\wow.min.js" />
-    <Content Include="log-in\log-in.aspx" />
-    <Content Include="log-in\log-out.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -429,7 +427,6 @@
     <Compile Include="App_Logic\Helpers\Infrastructure Helpers\Filer.cs" />
     <Compile Include="App_Logic\Helpers\Infrastructure Helpers\SiteLogin.cs" />
     <Compile Include="App_Logic\Helpers\Infrastructure Helpers\UITestDataHelper.cs" />
-    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -437,6 +434,7 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Ligacao.cs" />
@@ -460,20 +458,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="log-in\log-in.aspx.cs">
-      <DependentUpon>log-in.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="log-in\log-in.aspx.designer.cs">
-      <DependentUpon>log-in.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="log-in\log-out.aspx.cs">
-      <DependentUpon>log-out.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="log-in\log-out.aspx.designer.cs">
-      <DependentUpon>log-out.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <!--<Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
