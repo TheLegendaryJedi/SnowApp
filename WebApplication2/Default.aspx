@@ -140,24 +140,6 @@
     <!--/#feature-->
     <!--/#middle-->
     <!--/#bottom-->
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2015 <a target="_blank" href="http://aspxtemplates.com/" title="Free Twitter Bootstrap asp.net templates">aspxtemplates</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
-    </footer>
     <!--/#footer-->
     <!-- Back To Top -->
     <script type="text/javascript">
