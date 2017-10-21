@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/default.aspx" title="Root"  description="Root">
+    <siteMapNode url="~/secured/default.aspx" title="Administração do SIRCAPE" description="Área de Administração do SIRCAPE">
+      <siteMapNode url="~/secured/admin/Utilizador.aspx" title="Gestão de Utilizadores" description="Gestão de Utilizadores do SIRCAPE"/>
+      <siteMapNode url="~/secured/admin/Consumo.aspx" title="Gestão de Consumos" description="Gestão de Consumos do SIRCAPE"/>
+      <siteMapNode url="~/secured/admin/Residuo.aspx" title="Gestão de Residuos" description="Gestão de Residuos do SIRCAPE"/>
+    </siteMapNode>
+    <siteMapNode url="~/consumo/default.aspx" title="Gerir Consumos" description="Gerir Consumos">
+      <siteMapNode url="~/consumo/consumo.aspx" title="Tipo de Consumo" description="Gerir Tipo de Consumos" />
+      <siteMapNode url="~/consumo/fact_consumo.aspx" title="Consumos" description="Gerir Consumos" />
+    </siteMapNode>
+    <siteMapNode url="~/residuos?" title="Gerir Residuos" description="Gerir Residuos">
+      <siteMapNode url="~/residuo.aspx" title="Tipo de Residuo" description="Gerir Tipo de Residuos" />
+    </siteMapNode>
+    <siteMapNode url="~/web-form-samples/listing-page.aspx?" title="Web From Samples" description="Web From Samples">
+      <siteMapNode url="~/web-form-samples/about-this-sample.aspx" title="About This Sample"  description="About This Sample" />
+      <siteMapNode url="~/web-form-samples/listing-page.aspx" title="Listing Page"  description="Listing Page" />
+      <siteMapNode url="~/employee/view/1.aspx" title="Details Page"  description="Details Page" />
+    </siteMapNode>
+    <siteMapNode url="~/secured/default_old.aspx" title="Security Samples" description="Security Samples">
+      <siteMapNode url="~/secured/public/public.aspx" title="Public Access" description="Public Access"/>
+      <siteMapNode url="~/secured/member/member-default.aspx" title="Member Security" description="Member Security"/>
+      <siteMapNode url="~/secured/admin/admin-default.aspx" title="Admin Security" description="Admin Security"/>
+    </siteMapNode>
+    <siteMapNode url="~/about-eisk.aspx?" title="About EISK" description="About EISK">
+      <siteMapNode url="~/about-eisk.aspx" title="About This Project" description="About This Project"/>
+    </siteMapNode>
+    <siteMapNode title="Using the SqlDataSource Control" url="~/SqlDataSource/Default.aspx" description="Work directly with database data using the SqlDataSource control.">
+      <siteMapNode url="~/SqlDataSource/Querying.aspx" title="Retrieving Database Data" description="Examines how to query data from a database that can then be displayed through a data Web control." />
+      <siteMapNode url="~/SqlDataSource/ParameterizedQueries.aspx" title="Parameterized Queries" description="Learn how to specify parameterized WHERE clauses in the SqlDataSource's SELECT statement." />
+      <siteMapNode url="~/SqlDataSource/InsertUpdateDelete.aspx" title="Inserting, Updating, and Deleting Database Data" description="See how to configure the SqlDataSource to include INSERT, UPDATE, and DELETE statements." />
+      <siteMapNode url="~/SqlDataSource/OptimisticConcurrency.aspx" title="Using Optimistic Concurrency" description="Explore how to augment the SqlDataSource to include support for optimistic concurrency." />
+    </siteMapNode>
+    <siteMapNode title="EnhancedGridView" url="~/EnhancedGridView?" description="Maiores funcionalidades com grid view.">
+      <siteMapNode url="~/EnhancedGridView/InsertThroughFooter.aspx" title="Inserção pelo footer" description="Como inserir pelo footer da gridview." />
+    </siteMapNode>
+    <siteMapNode url="~/1?" title="" description="Como inserir pelo footer da gridview." />
+    <siteMapNode url="~/2?" title="" description="Como inserir pelo footer da gridview." />
+    <siteMapNode url="~/3?" title="" description="Como inserir pelo footer da gridview." />
+    <siteMapNode url="~/4?" title="" description="Como inserir pelo footer da gridview." />
+  </siteMapNode>
+</siteMap>

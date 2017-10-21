@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Página Inicial - NMANIF"  description="Página Inicial - NMANIF">
+    <siteMapNode url="~/default.aspx" title="Página Inicial - NMANIF"  description="Página Inicial - NMANIF"/>
+    <siteMapNode url="~/secured/default.aspx" title="Administração do NMANIF" description="Área de Administração do NMANIF">
+      <siteMapNode url="~/secured/admin/Utilizador.aspx" title="Gestão de Utilizadores" description="Gestão de Utilizadores do NMANIF"/>
+      <!--<siteMapNode url="~/secured/admin/TabelasAuxiliares.aspx" title="Gestão de Tabelas Auxiliares" description="Gestão de Tabelas Auxiliares do SIRCAPE"/>-->
+    </siteMapNode>
+    <siteMapNode url="~/secured/default-user-n.aspx" title="Área de Numerador (Manif)" description="Área de Numeração de Manifestação de Necessidade">
+      <siteMapNode url="~/secured/member/InserirManif.aspx" title="Inserção de Manifestação Necessidade" description="Área de Inserção de Manifestação Necessidade"/>
+      <siteMapNode url="~/secured/member/GerirManif.aspx" title="Gestão de Manifestação Necessidade" description="Área de Gestão de Manifestação Necessidade"/>
+      <!-- <siteMapNode url="~/secured/member/GerirPedido.aspx" title="Gestão de Pedidos" description="Área de Gestão de Pedidos do SIRCAPE"/> -->
+    </siteMapNode>
+    <siteMapNode url="~/secured/default-user-np.aspx" title="Área de Numerador (Parecer)" description="Área de Numeração de Pareceres">
+      <siteMapNode url="~/secured/member/InserirParecer.aspx" title="Inserção de Parecer" description="Área de Inserção de Parecer"/>
+      <siteMapNode url="~/secured/member/GerirParecer.aspx" title="Gestão de Parecer" description="Área de Gestão de Parecer"/>
+      <!-- <siteMapNode url="~/secured/member/GerirPedido.aspx" title="Gestão de Pedidos" description="Área de Gestão de Pedidos do SIRCAPE"/> -->
+    </siteMapNode>
+    <siteMapNode url="~/secured/default-user-r.aspx" title="Área de Relatório" description="Área de Relatórios do NMANIF">
+      <!--<siteMapNode url="~/secured/stats/statsPedido.aspx" title="Gráficos-Pedidos" description="Indicadores Gráficos sobre Pedidos do SIRCAPE"/>
+      <siteMapNode url="~/secured/stats/statsRecurso.aspx" title="Gráficos-Recursos" description="Indicadores Gráficos sobre Recursos do SIRCAPE"/>-->
+      <siteMapNode url="~/secured/stats/statsReports.aspx" title="Relatórios" description="Relatórios sobre Custos e Quantidades de Manifestações de Necessidade"/>
+      <!--<siteMapNode url="~/secured/stats/statsRecurso.aspx" title="Indicadores-Recursos" description="Indicadores Gráficos sobre Recursos do SIRCAPE"/>-->
+    </siteMapNode>
+    <!--<siteMapNode url="~/secured/default-plano-e-protocolo.aspx" title="Área de Planos e Protocolos" description="Área de Planos e Protocolos do SIRCAPE">
+      <siteMapNode url="~/secured/default-admin-plano-e-protocolo.aspx" title="Administração/Registo" description="Área Administração de Planos e Protocolos do SIRCAPE">
+        <siteMapNode url="~/secured/planos-protocolos/admin/Utilizador.aspx" title="Gestão Utilizadores" description="Gestão de Utilizadores do SIRCAPE (Planos e Protocolos)"/>
+        <siteMapNode url="~/secured/planos-protocolos/admin/TabelasAuxiliares.aspx" title="Gestão Tabelas Auxiliares" description="Gestão de Tabelas Auxiliares do SIRCAPE (Planos e Protocolos)"/>
+        <siteMapNode url="~/secured/planos-protocolos/cft/InserirPedidoPlano.aspx" title="Registo Pedidos" description="Registo de Novos Pedidos (Planos e Protocolos)"/>
+        <siteMapNode url="~/secured/planos-protocolos/cft/InserirEncargoFinanceiro.aspx" title="Registo Encargos Financeiros" description="Registo de Encargos Financeiros (Planos e Protocolos)"/>
+        <siteMapNode url="~/secured/planos-protocolos/cft/GerirPedidoPlano.aspx" title="Gestão Pedidos" description="Gestão de Pedidos (Planos e Protocolos)"/>
+      </siteMapNode>
+      <siteMapNode url="~/secured/default-user-plano-e-protocolo.aspx" title="Registo Dados (UEO)" description="Área de Utilizadores de Planos e Protocolos do SIRCAPE">
+        <siteMapNode url="~/secured/planos-protocolos/ueo/InserirRecursosTrabalho.aspx" title="Registo Recursos/Trabalho" description="Registo de Recursos e Trabalho Realizado (Planos e Protocolos)"/>   
+      </siteMapNode>
+      <siteMapNode url="~/secured/planos-protocolos/stats/statsReports.aspx" title="Relatórios" description="Relatórios sobre Recursos do SIRCAPE-Planos"/>
+    </siteMapNode>-->
+    <siteMapNode url="~/about-nmanif.aspx" title="Sobre o Projecto - NManif" description="Sobre o Projecto - NManif"/>
+  </siteMapNode>
+</siteMap>
